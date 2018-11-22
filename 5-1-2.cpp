@@ -6,12 +6,12 @@ class A
 public:
 	A()
 	{
-		cout << "´´½¨A" << endl;
+		cout << "Â´Â´Â½Â¨A" << endl;
 
 	}
 	~A()
 	{
-		cout << "Îö¹¹A" << endl;
+		cout << "ÃŽÃ¶Â¹Â¹A" << endl;
 	}
 };
 class B
@@ -19,12 +19,12 @@ class B
 public:
 	B()
 	{
-		cout << "´´½¨B" << endl;
+		cout << "Â´Â´Â½Â¨B" << endl;
 
 	}
 	~B()
 	{
-		cout << "Îö¹¹B" << endl;
+		cout << "ÃŽÃ¶Â¹Â¹B" << endl;
 
 	}
 private:
@@ -34,6 +34,7 @@ int main()
 {
 	B obj;
 
-	system("pause");
+	
 	return 0;
+	system("pause");
 }
